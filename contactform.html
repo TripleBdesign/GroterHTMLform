@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contactformulier</title>"
+        <link rel="stylesheet" type="text/css" href="stylecontact.css">"
+    </head>
+    <body>
+        <header>
+            <div class="headerblok">
+                <img src="logo.png" width="50">           
+                <span class="bedrijfsnaam">Bedrijfsnaam</span>
+            </div>
+        </header>
+        <main>
+<p>
+    Beste Chef laat hier je recept achter!
+</p>
+
+
+
+        <form name="Contactformulier" method="POST" data-netlify="true">
+            <p>
+                <label>Je naam: <input type="text" name="naam"/> </label>
+            </p>
+
+            <p>
+                <label>Je emailadres: <input type="email"  name="email"/> </label>
+            </p>
+
+            <p>
+                <label>Je telefoonnummer: <input type="tel"  name="tel"/> </label>
+            </p>
+
+            <p>
+                <label>Je geboortedatum: <input type="date"  name="gebdat"/> </label>
+            </p>
+
+                    <label>Geslacht: </label>
+                    <p>
+                    <label> Man <input type="radio"  name="man"> </label> 
+                    </p>
+                    <p>
+                    <label> Vrouw <input type="radio"  name="vrouw"/> </label>
+                    </p>
+            
+
+<!-- Dit is een dropdown menu         
+            <p>
+                <label> Favoriete cuisine: 
+                    <select name="cuisine[]" multiple>
+                        <option value="Frans">Frans</option>
+                        <option value="Frans">Frans</option>
+                        <option value="Frans">Frans</option>
+                        <option value="Frans">Frans</option>
+                    </select>
+                </label>
+            </p>
+-->
+
+            <p>
+                <label> Favoriete cuisine: 
+            <p>
+                <label>Frans <input name="cuisine" type="checkbox"></label>
+                <label>Italiaans <input name="cuisine" type="checkbox"></label>
+                <label>Spaans <input name="cuisine" type="checkbox"></label>
+                <label>Arabisch <input name="cuisine" type="checkbox"></label>     
+            </label></p>
+                
+            </p>
+
+
+            <p>
+                <label>Favoriete kleur van je schort: 
+                <input type="color" name="kleurschort"></label>
+            </p>
+
+            <p>
+                <label>Jouw biografie: <textarea rows="5" cols="50" name="biografie">
+            </textarea> </label>
+            </p>
+
+            <p>
+                <label>Stuur ons je laatste recept:
+                <input type="file" name="laatste recept"></label>
+            </p>
+
+            <p>
+                <label>Vul de URL van je recepten website in:
+                <input type="url" name="urlrecweb"></label>
+            </p>
+
+            <p>
+                <button type="reset">Maak formulier leeg</button>
+            </p>
+
+
+
+            <p>
+            <button type="submit">Verstuur</button>
+            </p>
+
+        </form>
+        </main>
+        
+        <section>
+        <a href="index.html" target="_blank">Home</a> 
+        </section>
+    
+    <footer>
+        <h6>Copyright 2021</h6>
+    </footer>
+</body>
+</html>
